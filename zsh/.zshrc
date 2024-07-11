@@ -40,5 +40,3 @@ alias ...='cd ../..'
 alias l='ls -alF -G'
 alias ll='ls -l -G'
 alias path='echo -e ${PATH//:/\\n}'
-
-
