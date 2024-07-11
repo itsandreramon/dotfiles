@@ -13,6 +13,9 @@ export ANDROID_HOME=$HOME/Library/Android/sdk
 export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 
+# Homebrew
+alias update="brew update; brew upgrade; brew cleanup"
+
 # Gradle
 alias gradlec="rm -rf $HOME/.gradle/caches"
 alias gradlek="gradle --stop"
