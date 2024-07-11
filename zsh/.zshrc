@@ -1,7 +1,7 @@
 # JDKs
 # https://sap.github.io/SapMachine/
-export JDK_21=sapmachine-jdk-21.0.3
-export JDK_22=sapmachine-jdk-22.0.1
+export JDK_21=sapmachine-jdk-21.0.3.jdk
+export JDK_22=sapmachine-jdk-22.0.1.jdk
 
 # Java
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/$JDK_22/Contents/Home
