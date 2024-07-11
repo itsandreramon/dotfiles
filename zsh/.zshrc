@@ -38,6 +38,6 @@ alias tfd="terraform destroy"
 # Misc
 alias ..="cd .."
 alias ...="cd ../.."
-alias l="ls -l -G"
-alias la="ls -la -G"
+alias l="ls -lF -G"
+alias la="ls -laF -G"
 alias path="echo -e ${PATH//:/\\n}"
