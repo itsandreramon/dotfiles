@@ -42,4 +42,5 @@ alias ..="cd .."
 alias ...="cd ../.."
 alias l="ls -lF -G"
 alias la="ls -laF -G"
-alias path="echo -e ${PATH//:/\\n}"
+alias path="echo $PATH | tr ':' '\n'"
+
