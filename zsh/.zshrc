@@ -17,8 +17,10 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 alias gradlec="rm -rf $HOME/.gradle/caches"
 alias gradlek="gradle --stop"
 alias gradles="gradle --status"
+alias gradlev="gradle --version"
 alias gwk="./gradlew --stop"
 alias gws="./gradlew --status"
+alias gwv="./gradlew --version"
 alias gw="./gradlew"
 
 # Git
