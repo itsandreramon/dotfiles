@@ -1,3 +1,5 @@
+#!/bin/zsh
+
 # Setup
 cp ./git/.gitignore ~/.gitignore
 cp ./zsh/.zshrc ~/.zshrc
