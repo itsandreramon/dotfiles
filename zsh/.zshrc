@@ -13,7 +13,7 @@ export PATH=$PATH:$JAVA_HOME
 export ANDROID_HOME=$HOME/Library/Android/sdk
 export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/platform-tools
-export PATH=$PATH:$ANDROID_HOME/cmdline-tools
+export PATH=$PATH:$ANDROID_HOME/cmdline-tools/bin
 
 # homebrew
 alias update="brew update; brew upgrade; brew cleanup"
