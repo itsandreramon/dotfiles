@@ -9,9 +9,11 @@ export PATH=$PATH:$JAVA_HOME
 
 # android
 # https://developer.android.com/tools
+# https://developer.android.com/studio
 export ANDROID_HOME=$HOME/Library/Android/sdk
 export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/platform-tools
+export PATH=$PATH:$ANDROID_HOME/cmdline-tools
 
 # homebrew
 alias update="brew update; brew upgrade; brew cleanup"
