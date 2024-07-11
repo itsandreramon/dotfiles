@@ -18,7 +18,7 @@ alias gradlec="rm -rf $HOME/.gradle/caches"
 alias gradlek="gradle --stop"
 alias gradles="gradle --status"
 alias gwk="./gradlew --stop"
-alias gws="./gradle --status"
+alias gws="./gradlew --status"
 alias gw="./gradlew"
 
 # Git
