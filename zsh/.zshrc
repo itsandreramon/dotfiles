@@ -14,19 +14,20 @@ export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 # Gradle
+alias gradlec="rm -rf $HOME/.gradle/caches"
 alias gradlek="gradle --stop"
 alias gradles="gradle --status"
-
 alias gwk="./gradlew --stop"
 alias gws="./gradle --status"
 alias gw="./gradlew"
 
 # Git
 alias gl="git log --oneline --graph --all"
-alias gs="git status"
+alias gs="git status -s"
 alias gp="git push"
-alias gc="git commit"
 alias ga="git add"
+alias gc="git commit"
+alias gcm="git commit -a -m"
 
 # Terraform
 alias tf="terraform"
@@ -35,8 +36,8 @@ alias tfa="terraform apply -auto-approve"
 alias tfd="terraform destroy"
 
 # Misc
-alias ..='cd ..'
-alias ...='cd ../..'
-alias l='ls -alF -G'
-alias ll='ls -l -G'
-alias path='echo -e ${PATH//:/\\n}'
+alias ..="cd .."
+alias ...="cd ../.."
+alias l="ls -l -G"
+alias la="ls -la -G"
+alias path="echo -e ${PATH//:/\\n}"
