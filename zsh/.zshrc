@@ -15,6 +15,10 @@ export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin
 
+# android tools
+alias sdku="sdkmanager --update"
+alias sdkl="sdkmanager --list_installed"
+
 # homebrew
 alias update="brew update; brew upgrade; brew cleanup"
 
