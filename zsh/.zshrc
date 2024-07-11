@@ -46,6 +46,10 @@ alias tfi="terraform init"
 alias tfa="terraform apply -auto-approve"
 alias tfd="terraform destroy"
 
+# docker
+alias dps="docker container ps"
+alias dls="docker image ls"
+
 # misc
 alias ..="cd .."
 alias ...="cd ../.."
