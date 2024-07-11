@@ -1,6 +1,13 @@
 # macOS
 .DS_Store
 
-# IDEs
+# intellij
 .idea/
-.vscode/
+!.idea/codeStyles/
+
+# gradle
+.gradle
+
+# misc
+*.env
+*.tmp
