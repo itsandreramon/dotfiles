@@ -8,6 +8,9 @@
 # gradle
 .gradle
 
+# kotlin
+.kotlin
+
 # misc
 *.env
 *.tmp
