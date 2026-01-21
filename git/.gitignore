@@ -1,16 +1,6 @@
 # macOS
 .DS_Store
 
-# intellij
-.idea/
-!.idea/codeStyles/
-
-# gradle
-.gradle
-
-# kotlin
-.kotlin
-
 # misc
 *.env
 *.tmp
