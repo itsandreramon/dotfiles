@@ -56,5 +56,6 @@ alias ...="cd ../.."
 alias l="ls -lF -G"
 alias la="ls -laF -G"
 alias path="echo $PATH | tr ':' '\n'"
-alias ts="~/Developer/dotfiles/scripts/tmux.sh ~/Developer/timesheet-android"
+alias ts="~/Developer/dotfiles/scripts/tmux-opencode.sh ~/Developer/timesheet-android"
+alias tsc="~/Developer/dotfiles/scripts/tmux-opencode.sh ~/Developer/timesheet-android claude"
 
