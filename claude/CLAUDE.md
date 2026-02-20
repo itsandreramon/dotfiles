@@ -5,6 +5,9 @@
 - Keep the tone casual and realistic, like a normal developer comment
 - Avoid overly formal structure or bullet points unless necessary
 
+## Code Comments
+- Write code comments in all lowercase
+
 ## Jira Tickets
 - To fetch Jira tickets assigned to the user, run: `/Users/I569918/Developer/jira-tickets/scrape-jira.sh`
 - Usage options:
