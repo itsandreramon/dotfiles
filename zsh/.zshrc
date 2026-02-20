@@ -56,4 +56,5 @@ alias ...="cd ../.."
 alias l="ls -lF -G"
 alias la="ls -laF -G"
 alias path="echo $PATH | tr ':' '\n'"
+alias dev="cd ~/Developer"
 
